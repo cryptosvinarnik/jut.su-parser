@@ -88,4 +88,4 @@ async def main():
             ) for episode, link in zip(episodes, links)
         ]
 
-        await asyncio.gather(*[tasks])
+        await asyncio.gather(*tasks)
