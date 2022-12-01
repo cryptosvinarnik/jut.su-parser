@@ -18,6 +18,6 @@ You can change the path to the download folder in <b>config.py</b>
 
 
 ## TODO:
-- Async parser
-- Queue downloading
-- ...
+- [ ] Async parser
+- [ ] Queue downloading
+- [ ] ...
