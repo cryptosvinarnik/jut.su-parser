@@ -36,7 +36,7 @@ class JutSu():
 
         soup = BeautifulSoup(await main_page.text(), "html.parser")
 
-        episodes = soup.find_all("a", {"class": "short-btn black video the_hildi"})
+        episodes = soup.find_all("a", {"class": "short-btn"})
 
         return [Episode(episode.text, episode.attrs["href"]) for episode in episodes]
 
